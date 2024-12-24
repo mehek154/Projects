@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(to top right,rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family:sans-serif;
+}
+.container{
+    background-color:rgba(0, 0, 0 ,0.5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:17vw;
+    position: absolute;
+    top:1%;  
+    left:5%;
+}
+.nav-container{
+    position: absolute;
+    top:5%;
+    right:8%;
+    justify-items: center;
+    gap:5%;
+    margin-top: 1%;
+}
+h1{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size:15mm;
+    font-weight:900;
+    width:45vw;
+}
+h3{
+    margin-bottom: 3%
+}
+p{
+    margin-bottom: 1%;
+}
+.info-container input{
+    border-radius:5%;
+    padding:15px 70px;
+    font-size: 16px;
+    margin-right:2%;
+    background-color: rgba(0,0,0,0.7);
+}
+.info-container button{
+    padding:10px 20px;
+    width:10vw;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.info-container{
+    display: flex;
+}
+.lang{
+    border-radius:5px;
+    border-color:rgba(255, 255, 255, 0.74);
+    height:5vh;
+    width:6vw;
+    background-color: rgba(0, 0, 0 ,0.2);
+    color:white ;
+}
+.signin{
+    border-radius:5px;
+    border: none;
+    height:5vh;
+    width:5vw;
+    background-color:red ;
+    color:white;
+}
