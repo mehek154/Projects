@@ -8,7 +8,10 @@
         <div class="container">
             <img id="img1" src="Images/img1.png" alt="">
             <div class="nav-container">
-                <button class="lang">English</button>
+                <select name="lang" id="lang">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
                 <button class="signin">Sign In</button>
             </div>
             <h1>Unlimited movies, TV shows and more</h1>
@@ -17,60 +20,160 @@
            <div class="info-container">
                <input type="email" placeholder="Email Address">
                <button>Get Started ></button>
-           </div>
+            </div>
         </div>
         <div class="container-2">
+            <div class="border"></div>
             <h2 style="margin-top: 2%;">Trending Now</h2>
             <div class="btn-container">
-                <button class="btn">Global</button>
-                <button class="btn">Movies</button>
+                <select name="Global" id="btn">
+                    <option value="Global">Global</option>
+                    <option value="India">India</option>
+                </select>
+                <select name="Movies" id="btn">
+                    <option value="Movies">Movies</option>
+                    <option value="TV">TV Shows</option>
+                </select>
             </div>
-            <div class="container-3">
+            <div class="movies-container">
+                <div class="image-container">
                     <img id="movie" src="Images/movie3.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/1.png" alt=""></div>
+                </div>
+                <div class="image-container">
                     <img id="movie" src="Images/movie4.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/2.png" alt=""></div>
+                </div>
+                <div class="image-container">
                     <img id="movie" src="Images/movie5.jpg" alt=""> 
-                    <img id="movie" src="Images/movie6.jpg" alt="">
+                    <div class="number"><img id="num" src="Icons/3.png" alt=""></div>
+                </div>
+                <div class="image-container">
+                    <img id="movie" src="Images/movie6.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/4.png" alt=""></div>
+                </div>
+                <div class="image-container">
                     <img id="movie" src="Images/movie1.jpg" alt=""> 
-                    <img id="movie" src="Images/movie2.jpg" alt="">
-                    <img id="movie" src="Images/movie7.jpg" alt="">
-                    <img id="movie" src="Images/movie8.jpg" alt="">
-                    <img id="movie" src="Images/movie9.jpg" alt="">
-                    <img id="movie" src="Images/movie10.jpg" alt="">
+                    <div class="number"><img id="num" src="Icons/5.png" alt=""></div>
+                </div>
+                <div class="image-container">
+                    <img id="movie" src="Images/movie2.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/6.png" alt=""></div>
+                </div>
+                <div class="image-container">
+                    <img id="movie" src="Images/movie7.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/7.png" alt=""></div>
+                </div>
+                <div class="image-container">
+                    <img id="movie" src="Images/movie8.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/8.png" alt=""></div>
+                </div>
+                <div class="image-container">
+                    <img id="movie" src="Images/movie9.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/9.png" alt=""></div>
+                </div>
+                <div class="image-container">
+                    <img id="movie" src="Images/movie10.jpg" alt=""> 
+                    <div class="number"><img id="num" src="Icons/10.png" alt=""></div>
+                </div>
             </div>
             <h2>More reasons to join</h2>
-            <div class="container-4">
-                <div class="box1">
-                    <img src="icon1.avif" alt="">
+            <div class="cards-container">
+                <div class="cards">
+                    <h2>Enjoy on your TV</h2>
+                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    <img class="icons" src="Icons/laptop.png" alt="">
                 </div>
-                <div class="box2">
+                <div class="cards">
+                    <h2>Download your shows to watch offline</h2>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                    <img class="icons" src="Icons/download.png" alt="">
                     
                 </div>
-                <div class="box3"></div>
-                <div class="box4"></div>
+                <div class="cards">
+                    <h2>Watch everywhere</h2>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                    <img class="icons" src="Icons/telescope.png" alt="">
+                </div>
+                <div class="cards">
+                    <h2>Create profiles for kids</h2>
+                    Send kids on adventures with their favourite characters in a space made just for them — free with your membership.
+                    <img class="icons" src="Icons/happy.png" alt="">
+                </div>
             </div>
             <h2>Frequently Asked Questions</h2>
             <div class="container-5">
                 <div class="bx5">
                     <h2>What is Netflix?</h2>
+                    <img id="plus" src="Icons/plus.png" alt="">
                 </div>
                 <div class="bx5">
                     <h2>How much does Netflix Cost?</h2>
+                    <img id="plus" src="Icons/plus.png" alt="">
                 </div>
                 <div class="bx5">
                     <h2>Where can I watch?</h2>
+                    <img id="plus" src="Icons/plus.png" alt="">
                 </div>
                 <div class="bx5">
                     <h2>How do I cancel?</h2>
+                    <img id="plus" src="Icons/plus.png" alt="">
                 </div>
                 <div class="bx5">
                     <h2>What can I watch on Netflix?</h2>
+                    <img id="plus" src="Icons/plus.png" alt="">
                 </div>
                 <div class="bx5">
                     <h2>Is Netflix good for kids?</h2>
+                    <img id="plus" src="Icons/plus.png" alt="">
                 </div>
             </div>
-           <h4 style="text-align: center;">Ready to watch? Enter your email to create or restart your membership.
+           <h4 style="text-align: center; margin-bottom: 2%;">Ready to watch? Enter your email to create or restart your membership.
             </h4>
+            <div class="info-container2">
+                <input type="email" placeholder="Email Address">
+                <button>Get Started ></button>
+             </div>
+             <footer>
+                <div class="questions">
+                    Questions? Call 000-800-919-1743
+                </div>
+                 <div class="footer">
+
+                     <div class="link-items">
+                         <a href="">FAQ</a>
+                         <a href="">Investor Relations</a>
+                         <a href="">Privacy</a>
+                         <a href="">Speed</a>
+                     </div>
+                     <div class="link-items">
+                        <a href="">Help Center</a>
+                        <a href="">Job</a>
+                        <a href="">Cookie Preferences</a>
+                        <a href="">Legal Notices</a>
+                    </div>
+                    <div class="link-items">
+                        <a href="">Account</a>
+                        <a href="">Ways to watch</a>
+                        <a href="">Corporate Information</a>
+                        <a href="">Only on Netflix</a>
+                    </div>
+                    <div class="link-items">
+                        <a href="">Media Center</a>
+                        <a href="">Terms of use</a>
+                        <a href="">Contact Us</a>
+                    </div>
+                 </div>
+                 <div class="languages">
+                     <select name="lang" id="lang2">
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                    <div class="name">
+                        Netflix India
+                    </div>
+             </footer>
+             </div>
         </div>
     </body>
 </html>
