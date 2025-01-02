@@ -128,18 +128,8 @@ p{
     transition:1s;
     z-index:-1;
 }
-#one{
-    position: absolute;
-    bottom:2px;
-    z-index: index -2;;
-}
 #movie:hover{
     transform:scale(1.1);
-}
-#icon1{
-    position: absolute;
-    height:15vh;
-    width:5vw;
 }
 #btn{
     border-radius:5px;
@@ -165,9 +155,9 @@ h2{
 }
 .cards{
     border-radius:7%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+    padding:20px;
+    /*display: flex;*/
+   /* flex-direction: column;*/
     background: linear-gradient(to right bottom, #181818,#2b0c2b);
     height:265px;
     width: 220px;
